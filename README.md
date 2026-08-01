@@ -2,8 +2,6 @@
 
 **A Shark Tank India deal simulator.** Read a real (anonymized) startup pitch — industry, city, revenue, the founder's ask — and make your call: go out, match the ask, or counter-offer. Then the real outcome is revealed and you're scored on how close your instincts came to the actual deal. Wordle-style daily challenge, built for the show's 10M+ fanbase.
 
-> **Status: rebuilt from source, pre-deploy.** The app is a Vite + React + TypeScript project (`npm run dev`). The original compiled prototype is preserved at `prototype/index.html` as the visual spec. See `TASKS.md` for the roadmap and `CLAUDE.md` for full development context.
-
 ## Play it
 
 ```bash
