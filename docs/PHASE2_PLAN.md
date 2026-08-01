@@ -117,3 +117,31 @@ pinned before new pitches are appended.
 6. **Render QC**: a forced-day playthrough of at least one S4 and one S5 pitch
    in the browser — pitch card, reveal, and scoring all correct with sparse
    fields.
+
+---
+
+## Task C — Share-card image + OG preview
+
+### Objective
+
+1) Links shared anywhere (WhatsApp/X/Slack) unfurl with a branded preview
+image. 2) After the daily game, "Share" attaches a generated score-card image
+(1080×1350, WhatsApp/IG-friendly) alongside the text on devices that support
+file sharing, and degrades to the existing text flow (+ card download)
+everywhere else. No new dependencies — hand-drawn canvas.
+
+### Failure modes & mitigations
+
+| Failure | Mitigation |
+|---|---|
+| `navigator.canShare({files})` unsupported (desktop, older Android) | Text-copy flow unchanged + card auto-downloads |
+| Brand fonts not loaded when canvas draws | await `document.fonts.ready`, system-font fallback stack |
+| OG image ignored by scrapers | absolute URL, 1200×630 PNG, `summary_large_image`, verified via curl of meta + asset 200 |
+| Emoji glyph variance across OS in the card | card uses drawn shapes/text for scoring elements; emoji only as accents |
+
+### QC gates
+
+1. Card generated in-browser: correct dimensions, non-empty blob, visual check.
+2. Fallback test with `canShare` stubbed false → text copied + PNG download triggered.
+3. `/og.png` serves 200 with image/png, 1200×630; og:image/twitter tags present in served HTML.
+4. Production: share flow on live site + OG tags verified on the deployed URL.

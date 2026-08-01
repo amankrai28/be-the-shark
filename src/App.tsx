@@ -13,6 +13,7 @@ import {
   saveStats,
 } from './lib/storage'
 import { buildShareText } from './lib/share'
+import { downloadBlob, drawShareCard } from './lib/shareCard'
 import { confettiBurst } from './lib/confetti'
 import { ErrorBoundary } from './components/ErrorBoundary'
 import { Home } from './components/Home'
@@ -95,7 +96,7 @@ export default function App() {
     }
   }, [round])
 
-  const share = useCallback(() => {
+  const share = useCallback(async () => {
     if (!round?.score) return
     const text = buildShareText(round.score, pitchNo, stats.currentStreak, stats.bestScore)
     const copy = () =>
@@ -103,10 +104,26 @@ export default function App() {
         .writeText(text)
         .then(() => showToast('Copied to clipboard!'))
         .catch(() => showToast('Could not copy — try a screenshot!'))
+
+    const blob = await drawShareCard(round.score, pitchNo, stats.currentStreak, stats.bestScore)
+    if (blob && navigator.share) {
+      const file = new File([blob], `be-the-shark-${pitchNo}.png`, { type: 'image/png' })
+      if (navigator.canShare?.({ files: [file] })) {
+        navigator.share({ files: [file], text }).catch((err) => {
+          if (err?.name !== 'AbortError') copy()
+        })
+        return
+      }
+    }
+    // no file-share support: keep the proven text flow, plus save the card
     if (navigator.share) {
       navigator.share({ text }).catch(copy)
     } else {
       copy()
+    }
+    if (blob) {
+      downloadBlob(blob, `be-the-shark-${pitchNo}.png`)
+      showToast('Score card saved!')
     }
   }, [round, pitchNo, stats, showToast])
 
