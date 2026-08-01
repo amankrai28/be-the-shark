@@ -24,7 +24,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 2,
@@ -50,7 +52,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 3,
@@ -76,7 +80,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 4,
@@ -101,7 +107,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 5,
@@ -124,7 +132,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 6,
@@ -147,7 +157,9 @@
   "founderName": "",
   "productCategory": "Agriculture",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 7,
@@ -170,7 +182,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 8,
@@ -195,7 +209,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 9,
@@ -220,7 +236,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 30.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 10,
@@ -246,7 +267,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 11,
@@ -261,18 +284,18 @@
   "employees": 0,
   "askAmount": 50,
   "askEquity": 10,
-  "dealMade": true,
-  "dealAmount": 56.6,
-  "dealEquity": 5.62,
-  "investingSharks": [
-   "namita",
-   "vineeta"
-  ],
+  "dealMade": false,
+  "dealAmount": null,
+  "dealEquity": null,
+  "investingSharks": [],
   "companyName": "JhaJiAchaar",
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "dealNote": "No deal in the tank — Namita & Vineeta invested ₹85L after the season aired",
+  "dataSource": "https://yourstory.com/herstory/2023/01/jhaji-store-shark-tank-india-namita-thapar-vineeta-singh",
+  "verified": true
  },
  {
   "id": 12,
@@ -298,7 +321,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 13,
@@ -324,7 +349,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 14,
@@ -347,7 +374,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Retail",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 15,
@@ -370,7 +399,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 16,
@@ -399,7 +430,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 17,
@@ -424,7 +457,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 18,
@@ -447,7 +482,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 19,
@@ -473,7 +510,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 20,
@@ -496,7 +535,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 21,
@@ -545,7 +586,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 23,
@@ -571,7 +614,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 24,
@@ -597,7 +642,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 25,
@@ -622,7 +669,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 26,
@@ -648,7 +697,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 27,
@@ -674,7 +725,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 28,
@@ -697,7 +750,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 29,
@@ -724,7 +779,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 30,
@@ -751,7 +808,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 31,
@@ -778,7 +837,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 32,
@@ -801,7 +862,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 33,
@@ -826,7 +889,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 34,
@@ -852,7 +917,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 35,
@@ -900,7 +967,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 37,
@@ -927,7 +996,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 38,
@@ -954,7 +1025,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 39,
@@ -1008,7 +1081,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 41,
@@ -1034,7 +1109,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 42,
@@ -1080,7 +1157,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 44,
@@ -1105,7 +1184,9 @@
   "founderName": "",
   "productCategory": "Electronics",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 45,
@@ -1130,7 +1211,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 47,
@@ -1156,7 +1242,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 30.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 48,
@@ -1179,7 +1270,9 @@
   "founderName": "",
   "productCategory": "Animal/Pets",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 49,
@@ -1205,7 +1298,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 50,
@@ -1231,7 +1326,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 51,
@@ -1260,7 +1357,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 52,
@@ -1287,7 +1386,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 53,
@@ -1310,7 +1411,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 54,
@@ -1335,7 +1438,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 55,
@@ -1358,7 +1463,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 56,
@@ -1381,7 +1488,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 57,
@@ -1429,7 +1538,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 59,
@@ -1452,7 +1563,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 60,
@@ -1480,7 +1593,9 @@
   "founderName": "",
   "productCategory": "Animal/Pets",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 61,
@@ -1503,7 +1618,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 62,
@@ -1526,7 +1643,9 @@
   "founderName": "",
   "productCategory": "Hardware",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 63,
@@ -1551,7 +1670,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 64,
@@ -1574,7 +1698,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 65,
@@ -1603,7 +1729,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 66,
@@ -1630,7 +1758,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 67,
@@ -1655,7 +1785,12 @@
   "founderName": "",
   "productCategory": "Hardware",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 22.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 68,
@@ -1681,7 +1816,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 69,
@@ -1708,7 +1845,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 70,
@@ -1731,7 +1870,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 71,
@@ -1754,7 +1895,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 72,
@@ -1777,7 +1920,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 73,
@@ -1802,7 +1947,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 74,
@@ -1825,7 +1975,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 75,
@@ -1848,7 +2000,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 76,
@@ -1871,7 +2025,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 77,
@@ -1897,7 +2053,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 78,
@@ -1922,7 +2080,12 @@
   "founderName": "",
   "productCategory": "Agriculture",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 20.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 79,
@@ -1945,7 +2108,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 80,
@@ -1970,7 +2135,9 @@
   "founderName": "",
   "productCategory": "Animal/Pets",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 81,
@@ -1999,7 +2166,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 82,
@@ -2022,7 +2191,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 83,
@@ -2047,7 +2218,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 84,
@@ -2070,7 +2243,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 85,
@@ -2095,7 +2270,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 86,
@@ -2118,7 +2295,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 88,
@@ -2141,7 +2320,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 89,
@@ -2166,7 +2347,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 90,
@@ -2193,7 +2376,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 91,
@@ -2216,7 +2401,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 92,
@@ -2243,7 +2430,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 93,
@@ -2270,7 +2459,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 94,
@@ -2293,7 +2484,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 95,
@@ -2316,7 +2509,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 96,
@@ -2339,7 +2534,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 97,
@@ -2365,7 +2562,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 98,
@@ -2388,7 +2587,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 99,
@@ -2411,7 +2612,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 100,
@@ -2434,7 +2637,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 101,
@@ -2457,7 +2662,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 102,
@@ -2482,7 +2689,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 103,
@@ -2505,7 +2714,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 104,
@@ -2528,7 +2739,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 105,
@@ -2551,7 +2764,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 106,
@@ -2576,7 +2791,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 107,
@@ -2599,7 +2816,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 108,
@@ -2624,7 +2843,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 109,
@@ -2647,7 +2868,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 110,
@@ -2674,7 +2897,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 111,
@@ -2700,7 +2925,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 112,
@@ -2727,7 +2954,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 113,
@@ -2750,7 +2979,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 114,
@@ -2773,7 +3004,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 115,
@@ -2796,7 +3029,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 116,
@@ -2824,7 +3059,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 117,
@@ -2847,7 +3084,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 118,
@@ -2870,7 +3109,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 119,
@@ -2897,7 +3138,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 120,
@@ -2920,7 +3163,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 121,
@@ -2946,7 +3191,12 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1",
+  "verified": true
  },
  {
   "id": 122,
@@ -2969,7 +3219,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_1"
  },
  {
   "id": 123,
@@ -3688,7 +3940,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 154,
@@ -3738,7 +3992,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 156,
@@ -3764,7 +4020,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 157,
@@ -3790,7 +4048,12 @@
   "founderName": "",
   "productCategory": "Electronics",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 100.0,
+  "dealNote": "Debt at 15% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 158,
@@ -3815,7 +4078,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 159,
@@ -3838,7 +4106,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 160,
@@ -3865,7 +4135,12 @@
   "founderName": "",
   "productCategory": "Entertainment",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 150.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 161,
@@ -3890,7 +4165,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 162,
@@ -3916,7 +4193,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 163,
@@ -3942,7 +4221,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 164,
@@ -3967,7 +4248,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 35.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 165,
@@ -3993,7 +4279,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 166,
@@ -4016,7 +4304,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 167,
@@ -4039,7 +4329,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 168,
@@ -4067,7 +4359,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 169,
@@ -4094,7 +4388,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 170,
@@ -4117,7 +4413,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 171,
@@ -4140,7 +4438,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 172,
@@ -4166,7 +4466,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 173,
@@ -4191,7 +4493,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 174,
@@ -4217,7 +4524,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 175,
@@ -4243,7 +4552,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 176,
@@ -4266,7 +4577,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 177,
@@ -4292,7 +4605,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 178,
@@ -4317,7 +4632,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 179,
@@ -4342,7 +4659,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 180,
@@ -4365,7 +4684,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 181,
@@ -4390,7 +4711,12 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 182,
@@ -4441,7 +4767,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 184,
@@ -4466,7 +4794,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 185,
@@ -4491,7 +4824,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 186,
@@ -4516,7 +4851,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 187,
@@ -4539,7 +4876,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 188,
@@ -4567,7 +4906,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 189,
@@ -4592,7 +4933,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 190,
@@ -4615,7 +4958,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 191,
@@ -4641,7 +4986,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 192,
@@ -4666,7 +5013,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 193,
@@ -4689,7 +5038,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 194,
@@ -4714,7 +5065,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 195,
@@ -4740,7 +5093,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 196,
@@ -4766,7 +5121,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 197,
@@ -4791,7 +5148,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 41.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 198,
@@ -4816,7 +5178,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 199,
@@ -4842,7 +5206,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 200,
@@ -4865,7 +5231,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 201,
@@ -4888,7 +5256,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 202,
@@ -4914,7 +5284,12 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 20.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 203,
@@ -4939,7 +5314,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 204,
@@ -4964,7 +5341,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 205,
@@ -4989,7 +5368,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 206,
@@ -5012,7 +5396,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 207,
@@ -5035,7 +5421,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 208,
@@ -5060,7 +5448,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 209,
@@ -5086,7 +5476,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 210,
@@ -5115,7 +5507,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 211,
@@ -5142,7 +5536,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 212,
@@ -5165,7 +5561,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 213,
@@ -5188,7 +5586,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 214,
@@ -5213,7 +5613,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 35.0,
+  "dealNote": "Interest-free debt",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 215,
@@ -5236,7 +5641,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 216,
@@ -5259,7 +5666,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 217,
@@ -5286,7 +5695,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 218,
@@ -5311,7 +5722,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 219,
@@ -5337,7 +5750,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Includes a debt component",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 220,
@@ -5365,7 +5783,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 221,
@@ -5391,7 +5811,12 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 222,
@@ -5417,7 +5842,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 223,
@@ -5440,7 +5867,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 224,
@@ -5467,7 +5896,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 225,
@@ -5492,7 +5923,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 226,
@@ -5515,7 +5948,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 227,
@@ -5540,7 +5975,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 228,
@@ -5565,7 +6002,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 229,
@@ -5590,7 +6029,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 230,
@@ -5613,7 +6054,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 231,
@@ -5641,7 +6084,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 232,
@@ -5666,7 +6111,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 233,
@@ -5691,7 +6141,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 234,
@@ -5714,7 +6166,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 235,
@@ -5737,7 +6191,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 236,
@@ -5760,7 +6216,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 237,
@@ -5785,7 +6243,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 238,
@@ -5808,7 +6268,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 239,
@@ -5834,7 +6296,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 240,
@@ -5863,7 +6327,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 241,
@@ -5891,7 +6357,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 242,
@@ -5914,7 +6382,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 243,
@@ -5939,7 +6409,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Retail",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 245,
@@ -5962,7 +6434,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 246,
@@ -5985,7 +6459,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 247,
@@ -6010,7 +6486,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 248,
@@ -6033,7 +6511,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 249,
@@ -6058,7 +6538,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 0% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 250,
@@ -6083,7 +6568,12 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 20.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 251,
@@ -6108,7 +6598,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 100.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 252,
@@ -6131,7 +6626,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 253,
@@ -6156,7 +6653,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 60.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 254,
@@ -6182,7 +6684,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 255,
@@ -6207,7 +6711,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 20.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 256,
@@ -6234,7 +6743,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 257,
@@ -6257,7 +6768,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 258,
@@ -6282,7 +6795,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 259,
@@ -6309,7 +6824,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 260,
@@ -6334,7 +6851,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 261,
@@ -6357,7 +6876,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 262,
@@ -6380,7 +6901,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 263,
@@ -6406,7 +6929,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 264,
@@ -6429,7 +6954,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 265,
@@ -6454,7 +6981,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 266,
@@ -6502,7 +7031,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 268,
@@ -6528,7 +7059,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 269,
@@ -6551,7 +7084,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 270,
@@ -6574,7 +7109,9 @@
   "founderName": "",
   "productCategory": "Liquor/Alcohol",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 271,
@@ -6597,7 +7134,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 272,
@@ -6623,7 +7162,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 273,
@@ -6646,7 +7187,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 274,
@@ -6673,7 +7216,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 275,
@@ -6702,7 +7247,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 276,
@@ -6725,7 +7272,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 277,
@@ -6748,7 +7297,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 278,
@@ -6774,7 +7325,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 60.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 279,
@@ -6797,7 +7353,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 280,
@@ -6823,7 +7381,12 @@
   "founderName": "",
   "productCategory": "Agriculture",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 281,
@@ -6846,7 +7409,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 282,
@@ -6874,7 +7439,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 283,
@@ -6899,7 +7466,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 70.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 284,
@@ -6926,7 +7498,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 285,
@@ -6949,7 +7523,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 286,
@@ -6972,7 +7548,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 287,
@@ -6995,7 +7573,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 288,
@@ -7018,7 +7598,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 289,
@@ -7041,7 +7623,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 290,
@@ -7067,7 +7651,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 291,
@@ -7092,7 +7678,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 45.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 292,
@@ -7115,7 +7706,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 293,
@@ -7140,7 +7733,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 294,
@@ -7163,7 +7758,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Retail",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 295,
@@ -7188,7 +7785,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 296,
@@ -7211,7 +7810,9 @@
   "founderName": "",
   "productCategory": "Animal/Pets",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 297,
@@ -7236,7 +7837,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 298,
@@ -7261,7 +7867,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 30.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 299,
@@ -7286,7 +7897,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 300,
@@ -7309,7 +7922,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Retail",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 301,
@@ -7336,7 +7951,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 302,
@@ -7359,7 +7976,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 303,
@@ -7405,7 +8024,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "B2B",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 305,
@@ -7430,7 +8051,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 306,
@@ -7453,7 +8076,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 307,
@@ -7480,7 +8105,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 12% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 308,
@@ -7503,7 +8133,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 309,
@@ -7526,7 +8158,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 310,
@@ -7551,7 +8185,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 311,
@@ -7579,7 +8218,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 312,
@@ -7608,7 +8249,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 313,
@@ -7631,7 +8274,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 314,
@@ -7656,7 +8301,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 65.0,
+  "dealNote": "Debt at 18% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2",
+  "verified": true
  },
  {
   "id": 315,
@@ -7681,7 +8331,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 316,
@@ -7704,7 +8356,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_2"
  },
  {
   "id": 317,
@@ -7852,7 +8506,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 323,
@@ -7877,7 +8533,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 324,
@@ -7900,7 +8558,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 325,
@@ -7925,7 +8585,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 326,
@@ -7948,7 +8610,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 327,
@@ -7973,7 +8637,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 328,
@@ -7998,7 +8664,12 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 30.0,
+  "dealNote": "Debt at 12% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 329,
@@ -8023,7 +8694,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 330,
@@ -8046,7 +8719,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 331,
@@ -8071,7 +8746,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 332,
@@ -8097,7 +8774,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 333,
@@ -8120,7 +8799,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 334,
@@ -8147,7 +8828,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Retail",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 335,
@@ -8173,7 +8856,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 336,
@@ -8196,7 +8881,9 @@
   "founderName": "",
   "productCategory": "Liquor/Alcohol",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 337,
@@ -8219,7 +8906,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 338,
@@ -8246,7 +8935,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 339,
@@ -8269,7 +8960,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 340,
@@ -8292,7 +8985,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Retail",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 341,
@@ -8318,7 +9013,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 342,
@@ -8343,7 +9040,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 343,
@@ -8369,7 +9068,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 344,
@@ -8394,7 +9095,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 345,
@@ -8417,7 +9120,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 346,
@@ -8440,7 +9145,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 347,
@@ -8463,7 +9170,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 348,
@@ -8486,7 +9195,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 349,
@@ -8511,7 +9222,9 @@
   "founderName": "",
   "productCategory": "Liquor/Alcohol",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 350,
@@ -8537,7 +9250,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 351,
@@ -8562,7 +9277,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 80.0,
+  "dealNote": "Debt at 10% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 352,
@@ -8589,7 +9309,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 353,
@@ -8615,7 +9337,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 354,
@@ -8638,7 +9362,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 355,
@@ -8664,7 +9390,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 356,
@@ -8690,7 +9418,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 357,
@@ -8713,7 +9443,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 358,
@@ -8741,7 +9473,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 359,
@@ -8792,7 +9526,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 361,
@@ -8818,7 +9554,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 362,
@@ -8841,7 +9579,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 363,
@@ -8866,7 +9606,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 364,
@@ -8892,7 +9634,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 365,
@@ -8915,7 +9659,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 366,
@@ -8943,7 +9689,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 367,
@@ -8966,7 +9714,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 368,
@@ -8992,7 +9742,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 369,
@@ -9043,7 +9795,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 371,
@@ -9066,7 +9820,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 372,
@@ -9089,7 +9845,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 373,
@@ -9114,7 +9872,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 374,
@@ -9137,7 +9897,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 375,
@@ -9160,7 +9922,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 376,
@@ -9187,7 +9951,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 377,
@@ -9210,7 +9976,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 378,
@@ -9266,7 +10034,9 @@
   "founderName": "",
   "productCategory": "Fitness/Sports/Outdoors",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 380,
@@ -9314,7 +10084,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 382,
@@ -9342,7 +10114,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 383,
@@ -9365,7 +10139,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 384,
@@ -9388,7 +10164,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 385,
@@ -9414,7 +10192,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 386,
@@ -9441,7 +10221,9 @@
   "founderName": "",
   "productCategory": "Electronics",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 387,
@@ -9464,7 +10246,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 388,
@@ -9489,7 +10273,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 389,
@@ -9512,7 +10298,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 390,
@@ -9535,7 +10323,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 391,
@@ -9561,7 +10351,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 392,
@@ -9584,7 +10376,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 393,
@@ -9607,7 +10401,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 394,
@@ -9632,7 +10428,12 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 25.0,
+  "dealNote": "Debt at 18% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 395,
@@ -9657,7 +10458,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 396,
@@ -9682,7 +10485,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 397,
@@ -9710,7 +10515,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 398,
@@ -9735,7 +10542,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 399,
@@ -9758,7 +10567,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 400,
@@ -9783,7 +10594,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 401,
@@ -9806,7 +10619,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 402,
@@ -9823,7 +10638,7 @@
   "askEquity": 2,
   "dealMade": true,
   "dealAmount": 60,
-  "dealEquity": 3,
+  "dealEquity": 2.4,
   "investingSharks": [
    "namita",
    "anupam",
@@ -9833,7 +10648,10 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "dealNote": "Plus 3% royalty until ₹1.2 Cr is recouped",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 403,
@@ -9856,7 +10674,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 404,
@@ -9882,7 +10702,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 405,
@@ -9907,7 +10729,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 406,
@@ -9934,7 +10758,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 407,
@@ -9959,7 +10785,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 408,
@@ -9982,7 +10810,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 409,
@@ -10008,7 +10838,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 35.0,
+  "dealNote": "Debt at 14% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 410,
@@ -10031,7 +10866,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 411,
@@ -10056,7 +10893,9 @@
   "founderName": "",
   "productCategory": "Agriculture",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 412,
@@ -10108,7 +10947,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 414,
@@ -10131,7 +10972,9 @@
   "founderName": "",
   "productCategory": "Vehicles/Electrical Vehicles",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 415,
@@ -10156,7 +10999,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 416,
@@ -10179,7 +11024,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 417,
@@ -10204,7 +11051,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 418,
@@ -10227,7 +11076,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 419,
@@ -10252,7 +11103,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 420,
@@ -10275,7 +11128,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 421,
@@ -10298,7 +11153,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 422,
@@ -10323,7 +11180,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 10% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 423,
@@ -10346,7 +11208,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 424,
@@ -10375,7 +11239,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 425,
@@ -10400,7 +11266,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 426,
@@ -10425,7 +11293,12 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 8% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 427,
@@ -10448,7 +11321,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 428,
@@ -10474,7 +11349,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 125.0,
+  "dealNote": "Debt at 10% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 429,
@@ -10499,7 +11379,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 430,
@@ -10525,7 +11407,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 431,
@@ -10548,7 +11432,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 432,
@@ -10571,7 +11457,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 433,
@@ -10594,7 +11482,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 434,
@@ -10619,7 +11509,12 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 3% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 435,
@@ -10644,7 +11539,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 10% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 437,
@@ -10669,7 +11569,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 8% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 438,
@@ -10694,7 +11599,12 @@
   "founderName": "",
   "productCategory": "Liquor/Alcohol",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 30.0,
+  "dealNote": "Debt at 10% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 439,
@@ -10740,7 +11650,9 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 441,
@@ -10765,7 +11677,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 15% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 442,
@@ -10821,7 +11738,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 10% interest for 3 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 444,
@@ -10844,7 +11766,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 445,
@@ -10870,7 +11794,12 @@
   "founderName": "",
   "productCategory": "Others",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 40.0,
+  "dealNote": "Debt at 12% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 446,
@@ -10896,7 +11825,12 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "hasDebt": true,
+  "debtAmountLakhs": 20.0,
+  "dealNote": "Debt at 12% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 447,
@@ -10919,7 +11853,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 448,
@@ -10944,7 +11880,12 @@
   "founderName": "",
   "productCategory": "Medical/Health",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "hasDebt": true,
+  "debtAmountLakhs": 80.0,
+  "dealNote": "Debt at 10% interest for 2 years",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 449,
@@ -11024,7 +11965,9 @@
   "founderName": "",
   "productCategory": "Manufacturing",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 452,
@@ -11049,7 +11992,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 453,
@@ -11072,7 +12017,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 454,
@@ -11098,7 +12045,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 455,
@@ -11123,7 +12072,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 456,
@@ -11149,7 +12100,12 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "hasDebt": true,
+  "debtAmountLakhs": 50.0,
+  "dealNote": "Debt at 14% interest",
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3",
+  "verified": true
  },
  {
   "id": 457,
@@ -11174,7 +12130,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 458,
@@ -11250,7 +12208,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 461,
@@ -11273,7 +12233,9 @@
   "founderName": "",
   "productCategory": "Others",
   "salesChannel": "D2C",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 462,
@@ -11296,7 +12258,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 463,
@@ -11322,7 +12286,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 464,
@@ -11372,7 +12338,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 466,
@@ -11395,7 +12363,9 @@
   "founderName": "",
   "productCategory": "Children/Education",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 467,
@@ -11418,7 +12388,9 @@
   "founderName": "",
   "productCategory": "Beauty/Fashion",
   "salesChannel": "D2C",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 468,
@@ -11441,7 +12413,9 @@
   "founderName": "",
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 469,
@@ -11467,7 +12441,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 470,
@@ -11496,7 +12472,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 471,
@@ -11519,7 +12497,9 @@
   "founderName": "",
   "productCategory": "Technology/Software",
   "salesChannel": "D2C",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 472,
@@ -11542,7 +12522,9 @@
   "founderName": "",
   "productCategory": "Lifestyle/Home",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 473,
@@ -11593,7 +12575,9 @@
   "founderName": "",
   "productCategory": "Entertainment",
   "salesChannel": "Hybrid",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 475,
@@ -11616,7 +12600,9 @@
   "founderName": "",
   "productCategory": "Business Services",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 476,
@@ -11642,7 +12628,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 477,
@@ -11670,7 +12658,9 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  },
  {
   "id": 478,
@@ -11693,6 +12683,8 @@
   "founderName": "",
   "productCategory": "Green/CleanTech",
   "salesChannel": "Hybrid",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "verified": true,
+  "dataSource": "https://en.wikipedia.org/wiki/Shark_Tank_India_season_3"
  }
 ]

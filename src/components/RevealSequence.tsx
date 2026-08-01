@@ -107,6 +107,11 @@ export function RevealSequence({ pitch, onDone }: Props) {
               <div className="card p-5">
                 <div className="text-3xl">🚫</div>
                 <div className="font-display mt-2 font-bold">All sharks passed on this one</div>
+                {pitch.dealNote ? (
+                  <div className="mt-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                    {pitch.dealNote}
+                  </div>
+                ) : null}
               </div>
             )}
 
