@@ -1133,33 +1133,6 @@
   "difficulty": "hard"
  },
  {
-  "id": 46,
-  "season": 1,
-  "episode": 15,
-  "industry": "Food and Beverage",
-  "city": "Hyderabad",
-  "description": "A franchise-model beverage brand built around fresh coconut-based drinks and products. Offers natural, healthy coconut water and smoothies through branded kiosks and outlets.",
-  "yearsInBusiness": 3,
-  "annualRevenue": "₹1.0 Cr",
-  "profitMargin": "95%",
-  "employees": 0,
-  "askAmount": 5e-05,
-  "askEquity": 5,
-  "dealMade": true,
-  "dealAmount": 5e-05,
-  "dealEquity": 5,
-  "investingSharks": [
-   "namita",
-   "anupam",
-   "aman"
-  ],
-  "companyName": "Cocofit",
-  "founderName": "",
-  "productCategory": "Food and Beverage",
-  "salesChannel": "B2B",
-  "difficulty": "easy"
- },
- {
   "id": 47,
   "season": 1,
   "episode": 16,
@@ -2146,34 +2119,6 @@
   "productCategory": "Food and Beverage",
   "salesChannel": "Hybrid",
   "difficulty": "medium"
- },
- {
-  "id": 87,
-  "season": 1,
-  "episode": 27,
-  "industry": "Medical/Health",
-  "city": "Pune",
-  "description": "A health-tech startup that developed ventilated PPE kits designed for prolonged use in hot Indian conditions. Created during COVID, the innovation addresses comfort issues with standard protective equipment.",
-  "yearsInBusiness": 2,
-  "annualRevenue": "Not disclosed",
-  "profitMargin": "N/A",
-  "employees": 0,
-  "askAmount": 0.00101,
-  "askEquity": 2,
-  "dealMade": true,
-  "dealAmount": 0.00101,
-  "dealEquity": 4,
-  "investingSharks": [
-   "namita",
-   "anupam",
-   "ghazal",
-   "peyush"
-  ],
-  "companyName": "WattTechnovations",
-  "founderName": "",
-  "productCategory": "Medical/Health",
-  "salesChannel": "Hybrid",
-  "difficulty": "hard"
  },
  {
   "id": 88,
@@ -10700,34 +10645,6 @@
   "productCategory": "Medical/Health",
   "salesChannel": "D2C",
   "difficulty": "medium"
- },
- {
-  "id": 436,
-  "season": 3,
-  "episode": 39,
-  "industry": "Green/CleanTech",
-  "city": "Faridabad",
-  "description": "A sustainable materials science startup developing packaging and products from agricultural waste. Creates eco-friendly alternatives to conventional packaging. Previously funded.",
-  "yearsInBusiness": 4,
-  "annualRevenue": "Not disclosed",
-  "profitMargin": "N/A",
-  "employees": 0,
-  "askAmount": 0.0125,
-  "askEquity": 1,
-  "dealMade": true,
-  "dealAmount": 0.0125,
-  "dealEquity": 1,
-  "investingSharks": [
-   "peyush",
-   "anupam",
-   "aman",
-   "vineeta"
-  ],
-  "companyName": "Dharaksha",
-  "founderName": "",
-  "productCategory": "Green/CleanTech",
-  "salesChannel": "Hybrid",
-  "difficulty": "hard"
  },
  {
   "id": 437,

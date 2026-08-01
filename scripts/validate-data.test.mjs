@@ -37,14 +37,22 @@ describe('dataset schema', () => {
 })
 
 describe('scorability (no NaN/zero-division pitches)', () => {
-  it('every pitch has a positive ask amount and equity', () => {
-    const bad = pitches.filter((p) => !(p.askAmount > 0) || !(p.askEquity > 0))
+  it('every pitch has a plausible ask (₹1L–₹300Cr, equity 0.1–75%)', () => {
+    // Symbolic stunt asks (₹5, ₹101…) are excluded from the game dataset —
+    // they are real episodes but unscorable in an amount/equity game.
+    const bad = pitches.filter(
+      (p) => !(p.askAmount >= 1 && p.askAmount <= 30000) || !(p.askEquity >= 0.1 && p.askEquity <= 75),
+    )
     expect(bad.map((p) => p.id)).toEqual([])
   })
 
-  it('every deal has positive terms and at least one shark', () => {
+  it('every deal has plausible terms and at least one shark', () => {
     const bad = pitches.filter(
-      (p) => p.dealMade && (!(p.dealAmount > 0) || !(p.dealEquity > 0) || p.investingSharks.length === 0),
+      (p) =>
+        p.dealMade &&
+        (!(p.dealAmount >= 1 && p.dealAmount <= 30000) ||
+          !(p.dealEquity > 0 && p.dealEquity <= 75) ||
+          p.investingSharks.length === 0),
     )
     expect(bad.map((p) => p.id)).toEqual([])
   })
