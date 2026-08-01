@@ -50,4 +50,6 @@ export interface GameStats {
   practiceUsed: number
   scoreDistribution: [number, number, number, number, number]
   pitchNumber: number
+  /** Score of the most recent daily game (shown on home after playing). */
+  lastScore: number
 }

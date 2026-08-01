@@ -140,6 +140,7 @@ export default function App() {
           pitchCount={pitches.length}
           playedToday={playedToday}
           practiceRemaining={practiceRemaining}
+          stats={stats}
           onPlayDaily={startDaily}
           onPlayPractice={startPractice}
           onHowTo={() => setShowHowTo(true)}

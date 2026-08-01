@@ -14,6 +14,7 @@ export const defaultStats: GameStats = {
   practiceUsed: 0,
   scoreDistribution: [0, 0, 0, 0, 0],
   pitchNumber: 0,
+  lastScore: 0,
 }
 
 export function loadStats(): GameStats {
@@ -50,6 +51,7 @@ export function recordDailyResult(
   next.gamesPlayed += 1
   next.totalScore += total
   next.pitchNumber = pitchNo
+  next.lastScore = total
   if (total > next.bestScore) next.bestScore = total
   next.scoreDistribution[scoreBucket(total)] += 1
 
