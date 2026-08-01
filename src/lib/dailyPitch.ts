@@ -1,4 +1,5 @@
 import type { Pitch } from '../types'
+import pinnedOrder from '../data/dailyOrder.json'
 
 /**
  * All daily-game time math is pinned to IST (UTC+5:30) so every player in the
@@ -49,25 +50,43 @@ export function seededOrder(length: number, seed: number): number[] {
   return order
 }
 
-const DAILY_SEED = 20260101
 const PRACTICE_SEED = 79190831
 
 /**
- * The daily pitch: a fixed shuffled tour through the whole dataset, one per
- * day, no skips or repeats until every pitch has been played.
+ * The daily schedule is PINNED: an explicit pitch-id list committed at
+ * src/data/dailyOrder.json (maintained by scripts/update-daily-order.mjs).
+ * New pitches append to the end of the cycle, so days players have already
+ * seen can never reshuffle. Ids no longer present in the dataset are skipped
+ * deterministically.
  */
-export function dailyPitch(pitches: Pitch[], day: number = pitchNumber()): Pitch {
-  const order = seededOrder(pitches.length, DAILY_SEED)
-  return pitches[order[((day - 1) % pitches.length + pitches.length) % pitches.length]]
+export function dailyPitch(
+  pitches: Pitch[],
+  day: number = pitchNumber(),
+  order: number[] = pinnedOrder as number[],
+): Pitch {
+  const byId = new Map(pitches.map((p) => [p.id, p]))
+  const n = order.length
+  let idx = (((day - 1) % n) + n) % n
+  for (let hops = 0; hops < n; hops++) {
+    const pitch = byId.get(order[idx])
+    if (pitch) return pitch
+    idx = (idx + 1) % n
+  }
+  return pitches[0]
 }
 
 /**
  * Practice pitch for a given day + slot (0–2). Uses an independent shuffled
  * order and never serves that day's daily pitch (spoiler guard).
  */
-export function practicePitch(pitches: Pitch[], slot: number, day: number = pitchNumber()): Pitch {
+export function practicePitch(
+  pitches: Pitch[],
+  slot: number,
+  day: number = pitchNumber(),
+  dailyOrder?: number[],
+): Pitch {
   const order = seededOrder(pitches.length, PRACTICE_SEED)
-  const daily = dailyPitch(pitches, day)
+  const daily = dailyPitch(pitches, day, dailyOrder)
   const n = pitches.length
   let idx = ((day - 1) * 3 + slot) % n
   let pick = pitches[order[idx]]

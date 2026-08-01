@@ -42,24 +42,31 @@ describe('istDateString', () => {
   })
 })
 
-describe('daily pitch selection', () => {
+describe('daily pitch selection (pure, synthetic order)', () => {
   const pitches = makePitches(478)
+  const order = seededOrder(478, 42).map((i) => i + 1) // shuffled ids 1..478
 
   it('is deterministic: same day → same pitch', () => {
-    expect(dailyPitch(pitches, 213).id).toBe(dailyPitch(pitches, 213).id)
+    expect(dailyPitch(pitches, 213, order).id).toBe(dailyPitch(pitches, 213, order).id)
   })
 
   it('covers all pitches with no repeats within one full cycle (incl. month boundaries)', () => {
     const seen = new Set<number>()
-    for (let day = 1; day <= 478; day++) seen.add(dailyPitch(pitches, day).id)
+    for (let day = 1; day <= 478; day++) seen.add(dailyPitch(pitches, day, order).id)
     expect(seen.size).toBe(478)
   })
 
   it('90-day simulated window: consecutive days never repeat, order is stable', () => {
-    const first = Array.from({ length: 90 }, (_, i) => dailyPitch(pitches, 100 + i).id)
-    const second = Array.from({ length: 90 }, (_, i) => dailyPitch(pitches, 100 + i).id)
+    const first = Array.from({ length: 90 }, (_, i) => dailyPitch(pitches, 100 + i, order).id)
+    const second = Array.from({ length: 90 }, (_, i) => dailyPitch(pitches, 100 + i, order).id)
     expect(first).toEqual(second)
     expect(new Set(first).size).toBe(90)
+  })
+
+  it('skips ids that are no longer in the dataset, deterministically', () => {
+    const withoutFirst = pitches.filter((p) => p.id !== order[0])
+    const fallback = dailyPitch(withoutFirst, 1, order)
+    expect(fallback.id).toBe(order[1])
   })
 
   it('seededOrder is a permutation and stable across calls', () => {
@@ -71,21 +78,36 @@ describe('daily pitch selection', () => {
   })
 })
 
+describe('pinned real schedule (continuity contract)', () => {
+  it('day 213 (launch day, 2026-08-01) is pitch id 475 forever', async () => {
+    const { readFileSync } = await import('node:fs')
+    const order = JSON.parse(readFileSync('src/data/dailyOrder.json', 'utf8')) as number[]
+    expect(order[(213 - 1) % order.length]).toBe(475)
+    // the launch prefix must never move: appended pitches only extend the tail
+    expect(order.length).toBeGreaterThanOrEqual(474)
+    expect(new Set(order.slice(0, 474)).size).toBe(474)
+    const { createHash } = await import('node:crypto')
+    const prefixHash = createHash('sha256').update(JSON.stringify(order.slice(0, 474))).digest('hex')
+    expect(prefixHash).toBe('722bc1d430e16d027b031d616a219bfbf31e5b47991b1c7df0673084e4c1bf90')
+  })
+})
+
 describe('practice pitch', () => {
   const pitches = makePitches(478)
+  const order = seededOrder(478, 42).map((i) => i + 1)
 
   it('never serves the daily pitch', () => {
     for (let day = 1; day <= 500; day++) {
-      const daily = dailyPitch(pitches, day)
+      const daily = dailyPitch(pitches, day, order)
       for (let slot = 0; slot < 3; slot++) {
-        expect(practicePitch(pitches, slot, day).id).not.toBe(daily.id)
+        expect(practicePitch(pitches, slot, day, order).id).not.toBe(daily.id)
       }
     }
   })
 
   it('gives three distinct pitches per day, deterministically', () => {
-    const ids = [0, 1, 2].map((s) => practicePitch(pitches, s, 213).id)
+    const ids = [0, 1, 2].map((s) => practicePitch(pitches, s, 213, order).id)
     expect(new Set(ids).size).toBe(3)
-    expect(ids).toEqual([0, 1, 2].map((s) => practicePitch(pitches, s, 213).id))
+    expect(ids).toEqual([0, 1, 2].map((s) => practicePitch(pitches, s, 213, order).id))
   })
 })
