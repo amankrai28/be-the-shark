@@ -1,0 +1,17 @@
+{
+  "name": "Be The Shark — Daily Startup Deal Game",
+  "short_name": "Be The Shark",
+  "description": "Read a real anonymized startup pitch. Make your deal. See what actually happened.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e13",
+  "theme_color": "#0b0e13",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

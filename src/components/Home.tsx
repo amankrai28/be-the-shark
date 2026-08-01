@@ -54,6 +54,10 @@ export function Home({ pitchNo, pitchCount, playedToday, practiceRemaining, onPl
       <div className="mt-6 text-xs" style={{ color: 'var(--text-muted)' }}>
         New pitch every day · {pitchCount} pitches · 1000 points possible
       </div>
+
+      <div className="mt-3 max-w-xs text-[10px] leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+        Not affiliated with any TV show or broadcaster. Built on publicly available deal data.
+      </div>
     </div>
   )
 }

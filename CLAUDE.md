@@ -8,18 +8,10 @@ Full product plan: `docs/PROJECT_PLAN.md` (roadmap, monetization, GTM, legal).
 
 ## Current state of the code — READ THIS FIRST
 
-- `index.html` is a **compiled Parcel production build** (minified React + framer-motion + Tailwind) downloaded from a claude.ai artifact ("v6 verified"). It is fully playable standalone — open it in a browser. **The original JSX source is not in this repo.**
-- `data/pitches.json` — the full game dataset, **extracted from the bundle**: 478 real pitches from Shark Tank India Seasons 1–3 (268 deals, 210 no-deals; difficulty tags: 73 easy / 222 medium / 183 hard). Schema per pitch: `id, season, episode, industry, city, description, yearsInBusiness, annualRevenue, profitMargin, employees, askAmount (₹ lakhs), askEquity (%), dealMade, dealAmount, dealEquity, investingSharks[], companyName, founderName, productCategory, salesChannel, difficulty`.
-
-### Implication for development
-
-Do NOT try to hand-edit the minified bundle. The intended path (see `TASKS.md`) is to **rebuild the app as a proper Vite + React + Tailwind project**, using:
-
-1. `data/pitches.json` as the data source (import or fetch),
-2. `index.html` as the living spec — run it in a browser to see exact UI, copy, animations, and flows to reproduce,
-3. the game rules below as the source of truth for logic.
-
-Keep the old build available (e.g. move to `prototype/index.html`) until the rebuild reaches feature parity.
+- The app is a **Vite + React + TypeScript + Tailwind** project (rebuilt Aug 2026 from the v6 prototype, which is preserved at `prototype/index.html` as the visual spec). `npm run dev` to run, `npm test` for the 38-test suite (scoring, daily-pitch determinism, streaks, data validator).
+- `data/pitches.json` — canonical dataset, **schema v2**: 474 real pitches from Seasons 1–3 (267 deals / 207 no-deals). 424 records (89%) are verified against public episode tables with per-record `dataSource` URLs; 57 deals carry `hasDebt`/`debtAmountLakhs`/`dealNote`. Removed from the original extraction: Dhruv Vidyut and three symbolic-ask stunt pitches (Cocofit ₹5, Watt ₹101, Dharaksha ₹1,250) — real episodes but unscorable on amount/equity. `employees` was dropped (dead field, was 0 for every record).
+- Build-time prep: `scripts/prepare-data.mjs` generates `src/data/pitches.game.json` with company/founder names XOR+base64 obfuscated (casual anti-cheat only). Runs automatically via `predev`/`prebuild`.
+- Daily pitch selection is **IST-pinned and seeded-shuffle based** (`src/lib/dailyPitch.ts`) — same pitch for every player worldwide, no skips at month boundaries (both were bugs in the prototype). Scoring lives in `src/lib/scoring.ts` with zero-division guards; debt deals score against the equity-cash portion.
 
 ## Game rules as implemented in v6 (verified against the bundle)
 
