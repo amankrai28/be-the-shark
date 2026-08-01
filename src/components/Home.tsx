@@ -8,9 +8,11 @@ interface Props {
   playedToday: boolean
   practiceRemaining: number
   stats: GameStats
+  showLeaderboard: boolean
   onPlayDaily: () => void
   onPlayPractice: () => void
   onHowTo: () => void
+  onLeaderboard: () => void
 }
 
 export function Home({
@@ -19,9 +21,11 @@ export function Home({
   playedToday,
   practiceRemaining,
   stats,
+  showLeaderboard,
   onPlayDaily,
   onPlayPractice,
   onHowTo,
+  onLeaderboard,
 }: Props) {
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-sm flex-col items-center justify-center px-6 text-center">
@@ -94,9 +98,16 @@ export function Home({
         </span>
       </button>
 
-      <button className="font-display mt-5 text-sm font-bold" style={{ color: 'var(--accent-gold)' }} onClick={onHowTo}>
-        ❓ How to Play
-      </button>
+      <div className="mt-5 flex items-center gap-6">
+        <button className="font-display text-sm font-bold" style={{ color: 'var(--accent-gold)' }} onClick={onHowTo}>
+          ❓ How to Play
+        </button>
+        {showLeaderboard && (
+          <button className="font-display text-sm font-bold" style={{ color: 'var(--accent-gold)' }} onClick={onLeaderboard}>
+            🏆 Leaderboard
+          </button>
+        )}
+      </div>
 
       <div className="mt-6 text-xs" style={{ color: 'var(--text-muted)' }}>
         New pitch every day · {pitchCount} pitches · 1000 points possible

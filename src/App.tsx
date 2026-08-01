@@ -21,10 +21,13 @@ import { DealForm } from './components/DealForm'
 import { RevealSequence } from './components/RevealSequence'
 import { ScoreScreen } from './components/ScoreScreen'
 import { HowToModal } from './components/HowToModal'
+import { LeaderboardScreen } from './components/LeaderboardScreen'
+import { SubmitScore } from './components/SubmitScore'
+import { leaderboardEnabled } from './lib/leaderboard'
 
 const pitches = rawPitches as unknown as Pitch[]
 
-type Screen = 'home' | 'game' | 'reveal' | 'score'
+type Screen = 'home' | 'game' | 'reveal' | 'score' | 'leaderboard'
 
 interface Round {
   pitch: Pitch
@@ -141,9 +144,11 @@ export default function App() {
           playedToday={playedToday}
           practiceRemaining={practiceRemaining}
           stats={stats}
+          showLeaderboard={leaderboardEnabled()}
           onPlayDaily={startDaily}
           onPlayPractice={startPractice}
           onHowTo={() => setShowHowTo(true)}
+          onLeaderboard={() => setScreen('leaderboard')}
         />
       )}
 
@@ -157,16 +162,25 @@ export default function App() {
       {screen === 'reveal' && round && <RevealSequence pitch={round.pitch} onDone={revealDone} />}
 
       {screen === 'score' && round?.decision && round?.score && (
-        <ScoreScreen
-          pitch={round.pitch}
-          decision={round.decision}
-          score={round.score}
-          stats={stats}
-          isPractice={round.isPractice}
-          onShare={share}
-          onHome={goHome}
-        />
+        <>
+          <ScoreScreen
+            pitch={round.pitch}
+            decision={round.decision}
+            score={round.score}
+            stats={stats}
+            isPractice={round.isPractice}
+            onShare={share}
+            onHome={goHome}
+          />
+          {!round.isPractice && (
+            <div className="mx-auto -mt-8 w-full max-w-sm px-4 pb-12">
+              <SubmitScore pitchNo={pitchNo} score={round.score.total} onViewLeaderboard={() => setScreen('leaderboard')} />
+            </div>
+          )}
+        </>
       )}
+
+      {screen === 'leaderboard' && <LeaderboardScreen pitchNo={pitchNo} onHome={goHome} />}
 
       <AnimatePresence>{showHowTo && <HowToModal onClose={() => setShowHowTo(false)} />}</AnimatePresence>
 
