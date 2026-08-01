@@ -23,6 +23,7 @@ export const SHARKS: Record<string, SharkInfo> = {
   deepinder: { name: 'Deepinder Goyal', company: 'Zomato', emoji: '🍕' },
   ronnie: { name: 'Ronnie Screwvala', company: 'upGrad', emoji: '🎓' },
   varun: { name: 'Varun Dua', company: 'ACKO', emoji: '🛡️' },
+  ritesh: { name: 'Ritesh Agarwal', company: 'OYO', emoji: '🏨' },
   guest: { name: 'Guest Shark', company: '', emoji: '🦈' },
 }
 

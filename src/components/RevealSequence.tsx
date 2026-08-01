@@ -116,7 +116,8 @@ export function RevealSequence({ pitch, onDone }: Props) {
                 {decodeName(pitch.companyName) || '—'}
               </div>
               <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                Season {pitch.season} · Episode {pitch.episode}
+                Season {pitch.season}
+                {pitch.episode >= 1 ? ` · Episode ${pitch.episode}` : ''}
               </div>
             </div>
           </motion.div>

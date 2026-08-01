@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 
 interface Props {
   pitchNo: number
+  pitchCount: number
   playedToday: boolean
   practiceRemaining: number
   onPlayDaily: () => void
@@ -9,7 +10,7 @@ interface Props {
   onHowTo: () => void
 }
 
-export function Home({ pitchNo, playedToday, practiceRemaining, onPlayDaily, onPlayPractice, onHowTo }: Props) {
+export function Home({ pitchNo, pitchCount, playedToday, practiceRemaining, onPlayDaily, onPlayPractice, onHowTo }: Props) {
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-sm flex-col items-center justify-center px-6 text-center">
       <motion.div
@@ -51,7 +52,7 @@ export function Home({ pitchNo, playedToday, practiceRemaining, onPlayDaily, onP
       </button>
 
       <div className="mt-6 text-xs" style={{ color: 'var(--text-muted)' }}>
-        New pitch every day · 478 pitches · 1000 points possible
+        New pitch every day · {pitchCount} pitches · 1000 points possible
       </div>
     </div>
   )

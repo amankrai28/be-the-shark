@@ -137,6 +137,7 @@ export default function App() {
       {screen === 'home' && (
         <Home
           pitchNo={pitchNo}
+          pitchCount={pitches.length}
           playedToday={playedToday}
           practiceRemaining={practiceRemaining}
           onPlayDaily={startDaily}
