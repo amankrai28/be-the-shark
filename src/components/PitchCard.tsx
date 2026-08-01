@@ -8,7 +8,7 @@ export function PitchCard({ pitch }: { pitch: Pitch }) {
       <div className="flex flex-wrap gap-2">
         <span className="chip">{pitch.industry}</span>
         <span className="chip">{pitch.city}</span>
-        <span className="chip">{pitch.salesChannel}</span>
+        {pitch.salesChannel ? <span className="chip">{pitch.salesChannel}</span> : null}
         <span className={`chip chip-difficulty ${pitch.difficulty}`}>{pitch.difficulty}</span>
       </div>
 
@@ -27,11 +27,11 @@ export function PitchCard({ pitch }: { pitch: Pitch }) {
         </div>
         <div className="stat-tile">
           <div className="stat-label">Years</div>
-          <div className="stat-value">{pitch.yearsInBusiness}y</div>
+          <div className="stat-value">{pitch.yearsInBusiness != null ? `${pitch.yearsInBusiness}y` : '—'}</div>
         </div>
         <div className="stat-tile">
           <div className="stat-label">Channel</div>
-          <div className="stat-value">{pitch.salesChannel}</div>
+          <div className="stat-value">{pitch.salesChannel ?? '—'}</div>
         </div>
       </div>
 

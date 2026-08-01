@@ -22,7 +22,7 @@ Streaks, best score, and score distribution are tracked locally. Results are sha
 
 ## The data
 
-`data/pitches.json` — 474 real pitches from Shark Tank India Seasons 1–3, each with industry, financials, ask, actual outcome, and investing sharks. 89% of records are cross-verified against public episode tables (per-record `dataSource` links); 57 deals carry their real debt components, scored against the equity portion. Company and founder names are hidden during play (anti-cheat) and revealed after you commit to your deal. Deal facts are public information; descriptions are original writing.
+`data/pitches.json` — 784 real pitches spanning all five Shark Tank India seasons, each with industry, financials, ask, actual outcome, and investing sharks. Records are cross-verified against public episode tables (per-record `dataSource` links); 79 deals carry their real debt components and royalty/split structures are noted at reveal, with scoring against the equity portion. The daily schedule is pinned, so dataset updates never reshuffle days players have already seen. Company and founder names are hidden during play (anti-cheat) and revealed after you commit to your deal. Deal facts are public information; descriptions are original writing.
 
 ## Tech
 

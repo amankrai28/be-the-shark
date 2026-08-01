@@ -11,7 +11,8 @@ const pitches = JSON.parse(readFileSync(join(root, 'data', 'pitches.json'), 'utf
 const KNOWN_SHARKS = [
   'ashneer', 'aman', 'namita', 'peyush', 'vineeta', 'anupam', 'ghazal',
   'amit', 'vikas', 'azhar', 'radhika', 'deepinder', 'ronnie', 'varun',
-  'ritesh', 'guest',
+  'ritesh', 'kunal', 'viraj', 'chirag', 'srikanth', 'mohit', 'kanika',
+  'shaily', 'hardik', 'varunalagh', 'guest',
 ]
 
 // Company names that ARE the generic product term (e.g. a popcorn brand named

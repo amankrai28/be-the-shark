@@ -5,7 +5,7 @@ export interface Pitch {
   industry: string
   city: string
   description: string
-  yearsInBusiness: number
+  yearsInBusiness: number | null
   annualRevenue: string
   profitMargin: string
   askAmount: number // ₹ lakhs
@@ -17,7 +17,7 @@ export interface Pitch {
   companyName: string
   founderName: string
   productCategory: string
-  salesChannel: string
+  salesChannel: string | null
   difficulty: 'easy' | 'medium' | 'hard'
   // schema v2 (optional until data QA backfills them)
   hasDebt?: boolean

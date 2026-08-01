@@ -24,6 +24,15 @@ export const SHARKS: Record<string, SharkInfo> = {
   ronnie: { name: 'Ronnie Screwvala', company: 'upGrad', emoji: '🎓' },
   varun: { name: 'Varun Dua', company: 'ACKO', emoji: '🛡️' },
   ritesh: { name: 'Ritesh Agarwal', company: 'OYO', emoji: '🏨' },
+  kunal: { name: 'Kunal Bahl', company: 'Snapdeal', emoji: '🛒' },
+  viraj: { name: 'Viraj Bahl', company: 'Veeba', emoji: '🍅' },
+  chirag: { name: 'Chirag Nakrani', company: 'Rayzon Solar', emoji: '🔆' },
+  srikanth: { name: 'Srikanth Bolla', company: 'Bollant Industries', emoji: '♻️' },
+  mohit: { name: 'Mohit Yadav', company: 'Minimalist', emoji: '🧴' },
+  kanika: { name: 'Kanika Tekriwal', company: 'JetSetGo', emoji: '✈️' },
+  shaily: { name: 'Shaily Mehrotra', company: 'FixDerma', emoji: '🧪' },
+  hardik: { name: 'Hardik Kothiya', company: 'Rayzon Solar', emoji: '☀️' },
+  varunalagh: { name: 'Varun Alagh', company: 'Mamaearth', emoji: '🌱' },
   guest: { name: 'Guest Shark', company: '', emoji: '🦈' },
 }
 
